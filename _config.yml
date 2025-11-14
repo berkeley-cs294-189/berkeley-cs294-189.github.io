@@ -115,19 +115,19 @@ google_calendar:
 collections:
   staffers:
     sort_by: name
-  modules:
-  calendars:
-  announcements:
-  labs:
-    output: true
-    permalink: /:collection/:path/
-  lectures:
-    output: true
-    sort_by: number # Date could work...
-    permalink: /lectures/:path/
-  hw:
-    output: true
-    permalink: /:collection/:path/
+  # modules:
+  # calendars:
+  # announcements:
+  # labs:
+  #   output: true
+  #   permalink: /:collection/:path/
+  # lectures:
+  #   output: true
+  #   sort_by: number # Date could work...
+  #   permalink: /lectures/:path/
+  # hw:
+  #   output: true
+  #   permalink: /:collection/:path/
   projects:
     output: true
     permalink: /:collection/:path/
