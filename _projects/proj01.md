@@ -1,20 +1,34 @@
 ---
-title: Project 1
+title: This is a Super Cool Project
 nav_exclude: false
+# Keep to ~2 sentences
 description: Ants vs. Some Bees
-due: "2024-06-13 11:59:59 PM PST"
-gradescope_assignment_id: 3858564
-submission_files:
-    - ants.py
+class_type: Intro Computer Science
+authors:
+    - name: Your Name
+      email: only-if-you-want
+      url: https://example.com
+    - name: Your Name
+      email: only-if-you-want
+      url: https://example.com
+# Suggested Sources (use as necessary)
+project_source:
+    - type: github
+      url:
+    - type: website
+      url: https://inst.eecs.berkeley.edu/~cs61a/fa24/projects/proj01/
+    - type: google_drive
+      url:
+    - type: overleaf
+      url:
+
 ---
 
 1. TOC
 {:toc}
 
-## Q1: Sample Question
+## This is My Super Cool Project
 
-{% include questions/sample_question.md %}
+....
 
-## Q2: Another Question
-
-{% include questions/another_question.md %}
+## Requirements

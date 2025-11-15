@@ -25,7 +25,7 @@ author: Various Bears
 color_scheme: light
 
 # TODO(setup): Set this to the semester, e.g. /sp24, (faXX / spXX / suXX / wiXX )
-baseurl: '/berkeley-class-site' # the subpath of your site, which should just be the semester.
+baseurl: '/' # the subpath of your site, which should just be the semester.
 # TODO(setup): Set this to your course's domain
 url: 'https://berkeley-eecs.github.io' # the hostname & protocol for your site, e.g. http://example.com
 
@@ -132,6 +132,11 @@ collections:
     output: true
     permalink: /:collection/:path/
 
+just_the_docs:
+  collections:
+    projects:
+      name: Fall 2025 Project
+
 # The sitemap **must** be enabled. It's published as /baseurl/sitemap.xml
 plugins:
   - jekyll-sitemap
@@ -142,47 +147,12 @@ plugins:
 
 # Default layouts for each collection type
 defaults:
-  - scope:
-      path: ''
-      type: labs
-    values:
-      layout: lab
-      nav_exclude: true
-  - scope:
-      path: ''
-      type: hw
-    values:
-      layout: hw
-      nav_exclude: true
-  - scope:
-      path: ''
-      type: projects
-    values:
-      layout: project
-      nav_exclude: true
-  - scope:
-      path: '_staffers'
-      type: staffers
-    values:
-      layout: staffer
-      height: 300
-      subpath: '/assets/images/'
-      width: 300
-  - scope:
-      path: ''
-      type: modules
-    values:
-      layout: module
-  - scope:
-      path: ''
-      type: calendars
-    values:
-      layout: calendar
-  - scope:
-      path: ''
-      type: announcements
-    values:
-      layout: announcement
+  # - scope:
+  #     path: ''
+  #     type: labs
+  #   values:
+  #     layout: lab
+  #     nav_exclude: true
 
 
 ######################################################################
