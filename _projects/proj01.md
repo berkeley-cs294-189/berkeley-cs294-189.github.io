@@ -12,6 +12,9 @@ authors:
       email: only-if-you-want
       url: https://example.com
 # Suggested Sources (use as necessary)
+presentations:
+    - type: slides
+      url:
 project_source:
     - type: github
       url:
