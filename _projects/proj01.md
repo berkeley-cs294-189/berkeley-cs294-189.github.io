@@ -1,4 +1,5 @@
 ---
+layout: page
 title: This is a Super Cool Project
 nav_exclude: false
 # Keep to ~2 sentences
@@ -6,10 +7,10 @@ description: Ants vs. Some Bees
 class_type: Intro Computer Science
 authors:
     - name: Your Name
-      email: only-if-you-want
+      email: contact-email-only-if-you-want
       url: https://example.com
     - name: Your Name
-      email: only-if-you-want
+      email: contact-email-only-if-you-want
       url: https://example.com
 # Suggested Sources (use as necessary)
 presentations:
@@ -24,11 +25,14 @@ project_source:
       url:
     - type: overleaf
       url:
-
 ---
 
+<!-- Leave this here. -->
 1. TOC
 {:toc}
+
+<!--  TODO: Put generic metadata info in template. -->
+<!-- Start with h2, the page already includes your title. -->
 
 ## This is My Super Cool Project
 

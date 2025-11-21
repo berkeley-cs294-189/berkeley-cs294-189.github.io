@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Project 1
 nav_exclude: false
 description: Ants vs. Some Bees
