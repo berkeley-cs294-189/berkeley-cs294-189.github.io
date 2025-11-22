@@ -34,7 +34,7 @@ project_source:
 <!--  TODO: Put generic metadata info in template. -->
 <!-- Start with h2, the page already includes your title. -->
 
-## This is My Super Cool Project
+## Introduction
 
 ....
 
