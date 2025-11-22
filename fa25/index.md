@@ -8,4 +8,4 @@ has_children: true
 
 # Fall 2025 Course Projects
 
-The documentation here is intended for both course staff and developers of the Berkeley Class Site template.
+[Visit the index page for all projects.](/)
