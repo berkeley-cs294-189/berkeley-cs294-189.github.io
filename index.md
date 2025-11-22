@@ -1,23 +1,23 @@
 ---
 layout: page
-title: Welcome!
+title: CS294-189: Fall 2025
 # nav_exclude: true
 permalink: /
+
 seo:
   type: Course
-  name: Berkeley Class Site
+  name: CS294-189: Designing CS Education at Scale
 nav_order: 1
 ---
 
-# UC Berkeley Class Site Template
+# CS294-189: Designing CS Education at Scale
 
-A template for static UC Berkeley cla
 
 {% if site.projects %}
 ## Fall 2025 Projects
 <ul>
 {% for project in site.projects %}
-  <li>
+  <li style="margin: 1em 0;">
     <strong>
       <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
     </strong>
@@ -25,7 +25,9 @@ A template for static UC Berkeley cla
       <strong class="label label-purple">Class Type: {{ project.class_type }}</strong><br/>
     {% endif %}
     {% if project.description %}
+      <p>
       {{ project.description }}
+      </p>
     {% endif %}
     {% if project.authors %}
       <strong>Authors:</strong>
@@ -42,9 +44,8 @@ A template for static UC Berkeley cla
         {% endfor %}
       </ul>
     {% endif %}
+    <hr/>
   </li>
 {% endfor %}
 </ul>
-{% else %}
-<p>No projects found.</p>
 {% endif %}
