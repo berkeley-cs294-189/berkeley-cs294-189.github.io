@@ -1,9 +1,8 @@
 ---
-layout: page
-title: CS294-189: Fall 2025
+layout: default
+title: "CS294-189: Fall 2025"
 # nav_exclude: true
 permalink: /
-
 seo:
   type: Course
   name: CS294-189: Designing CS Education at Scale
@@ -11,7 +10,6 @@ nav_order: 1
 ---
 
 # CS294-189: Designing CS Education at Scale
-
 
 {% if site.projects %}
 ## Fall 2025 Projects
