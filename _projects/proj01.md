@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: This is a Super Cool Project
 nav_exclude: false
 # Keep to ~2 sentences
@@ -34,7 +34,7 @@ project_source:
 <!--  TODO: Put generic metadata info in template. -->
 <!-- Start with h2, the page already includes your title. -->
 
-## This is My Super Cool Project
+## Introduction
 
 ....
 

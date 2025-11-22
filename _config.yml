@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 
 # TODO(setup): Typically the course number, "DEPT XXX". it appears on nearly every page. Keep it short. :)
-title: "CS294-189: Designing CS Education at Scale"
+title: "CS294-189"
 # TODO:(setup): This should be the extended title of your course. e.g. "Introduction to Data Science"
 tagline: A Jekyll template for course websites
 description: A modern, highly customizable, responsive Jekyll template for course websites
