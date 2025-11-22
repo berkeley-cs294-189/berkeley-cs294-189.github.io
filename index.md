@@ -5,7 +5,7 @@ title: "CS294-189: Fall 2025"
 permalink: /
 seo:
   type: Course
-  name: CS294-189: Designing CS Education at Scale
+  name: "CS294-189: Designing CS Education at Scale"
 nav_order: 1
 ---
 
