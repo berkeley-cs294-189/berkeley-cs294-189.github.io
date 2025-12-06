@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: This is a Super Cool Project
 nav_exclude: false
 # Keep to ~2 sentences
