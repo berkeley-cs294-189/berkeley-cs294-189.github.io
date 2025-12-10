@@ -1,12 +1,12 @@
 ---
 layout: project
-title: This is a Super Cool Project
+title: Introducing Perceptron and Multilayer Perceptron Networks Calculations
 nav_exclude: false
 # Keep to ~2 sentences
-description: Ants vs. Some Bees
-class_type: Intro Computer Science
+description: Introduction 
+class_type: Intro to Artificial Intelligence
 authors:
-    - name: Your Name
+    - name: Melissa Fabros
       email: contact-email-only-if-you-want
       url: https://example.com
     - name: Your Name
@@ -15,7 +15,7 @@ authors:
 # Suggested Sources (use as necessary)
 presentations:
     - type: slides
-      url:
+      url: https://docs.google.com/presentation/d/11pz5fsISE5MOZVW-RLXQ9SHMv0heJQwYJaBJ5K0YRMM/edit?usp=sharing
 project_source:
     - type: github
       url:
