@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Introducing Multilayer Perceptron Networks Calculations
+title: Introducing Multilayer Perceptron Networks Calculations - EECS 188
 nav_exclude: false
 # Keep to ~2 sentences
 description: Introduction to the maths behind neural networks
