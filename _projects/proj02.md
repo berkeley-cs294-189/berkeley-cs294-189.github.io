@@ -1,9 +1,9 @@
 ---
 layout: project
-title: Introducing Perceptron and Multilayer Perceptron Networks Calculations
+title: Introducing Multilayer Perceptron Networks Calculations
 nav_exclude: false
 # Keep to ~2 sentences
-description: Introduction 
+description: Introduction to the maths behind neural networks
 class_type: Intro to Artificial Intelligence
 authors:
     - name: Melissa Fabros
