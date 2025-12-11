@@ -3,15 +3,15 @@ layout: project
 title: Embodied AI Lab - EECS 106B
 nav_exclude: false
 # Keep to ~2 sentences
-description: Will AI robots take over the world? Who knows! ¯\(ツ)/¯ Let's drop the dramatic fiction and see what's **actually driving these machines**.
+description: Will AI robots take over the world? Who knows! ¯\(ツ)/¯ Let's drop the dramatic fiction and see what's actually driving these machines.
 class_type: Robotic Manipulation and Interaction
 authors:
     - name: Cassie Jeng
       email: cassie.jeng@berkeley.edu
-      url: https://cjeng8771.github.io/cassiejeng/
+      url: 
     - name: Abigail O'Neill
       email: abbyoneill@berkeley.edu
-      url: https://abbykoneill.github.io/
+      url: 
 # Project Sources
 presentations:
     - type: slides
@@ -21,6 +21,8 @@ project_source:
       url: https://github.com/abbykoneill/lerobot/tree/main/lab_part_1
     - type: github (part 2)
       url: https://github.com/abbykoneill/lerobot/tree/main/lab_part2
+    - type: Final Checkoff Grading Guidelines
+      url: https://docs.google.com/document/d/1wk4uSNiVx93OYwVAG2cJE-vnNyLYNsqW8A3gais9wAQ/edit?usp=sharing
 ---
 
 <!-- Leave this here. -->
