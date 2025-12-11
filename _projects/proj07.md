@@ -23,10 +23,10 @@ project_source:
       url: https://drive.google.com/file/d/1L83RuesKIJpkSRcFfRca5N9Zd3oKXYIb/view?usp=drive_link
     - type: grading sheet
       url: https://drive.google.com/file/d/1OVdNr-CkaXC2BWT0yN2NLaaisBXjw1FT/view?usp=drive_link
-    - type: website
-      url: https://inst.eecs.berkeley.edu/~cs61a/fa24/projects/proj01/
     - type: google_drive
       url: https://drive.google.com/drive/folders/11BVL57fvzczAgteIyocZxPV8cTiz1b6I?usp=sharing
+    - type: report
+      url: https://drive.google.com/file/d/14Z2WjD_aetFMjQTr3nTXWy2U5oomrRNc/view?usp=drive_link
     - type: overleaf
       url:
 ---
@@ -34,9 +34,6 @@ project_source:
 <!-- Leave this here. -->
 1. TOC
 {:toc}
-
-<!--  TODO: Put generic metadata info in template. -->
-<!-- Start with h2, the page already includes your title. -->
 
 ## Introduction
 
@@ -47,6 +44,19 @@ The rapid adoption of AI-assisted tools has altered the landscape of how univers
 
 We've designed a post-midterm oral assessment for CS70, which we will refer to as a CS70 viva voce. After the midterm is released and returned, each student selects one long answer midterm problem to analyze in depth. During a one-on-one session with a TA, the student delivers a brief (seven to ten minutes) oral presentation on the midterm problem. Students have one index card for notes and whiteboard use is encouraged!
 
+## Course Context
+
+* A required lower-division course that introduces students to discrete mathematics and probability; it serves as introduction to theoretical CS. 
+
+* Every semester, around 400 students enroll in the course.
+
+* The course includes two major written exams: a midterm and a cumulative final exam. 
+
+* Historically, exams are challenging, resulting in average scores hovering around 50%.
+
+* Constrained by staff hours and workload: due to the large number of students, and the comparatively small course staff (29 paid staff members, as of Fall 2025).
+
+
 ## Learning Objectives
 
 * Demonstrate their ability to analyse mathematical working and identify mistakes made. 
@@ -54,6 +64,20 @@ We've designed a post-midterm oral assessment for CS70, which we will refer to a
 * Present mathematical reasoning with clarity and concision.
 * By preparing for conceptual follow-up questions, students will gain experience exploring technical concepts in-depth, enough that they are able to justify ideas from the course, and understand how they fit into the broader context of the course.
 * Learn to identify misconceptions, pitfalls, and other common mistakes
+
+## Assignment Overview
+
+Students are asked to prepare an explanation that:
+
+* Introduces the key concepts related to the question from the notes (eg. formulas).
+
+* Presents the solution to the problem using these concepts introduced and justifies each step of work. 
+
+* Explains the misconceptions in the student's original solution, if the question was attempted.
+
+They will deliver this explanation to a CS70 TA or tutor. If they’re working with a partner, they will be allocated up to ten minutes for their explanation. Otherwise, they will be allocated up to seven minutes for their explanation.
+
+During the explanation, the TA or tutor will ask them questions to clarify their explanation and their understanding of the selected question’s topic.
 
 ## Requirements
 
@@ -67,7 +91,7 @@ Staff also need access to recording equipment and classrooms with whiteboards or
 
 ## Mock Implementation
 
-We're yet to implement this assignment. However, we have ran a small trial of the assignment. The entire report on the experiment can be found here. The conclusions of our experiment were:
+We're yet to implement this assignment. However, we have ran a small trial of the assignment. The entire report on the experiment can be found [here](https://drive.google.com/file/d/14Z2WjD_aetFMjQTr3nTXWy2U5oomrRNc/view?usp=drive_link). The conclusions of our experiment were:
 
 * Students gain a lot from 1-1 interactions with teaching staff.
 * Viva voces were good opportunities for students to learn through teaching. Students felt like the assignment was meaningful. 
