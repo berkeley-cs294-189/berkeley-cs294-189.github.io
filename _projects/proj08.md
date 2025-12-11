@@ -1,30 +1,27 @@
 ---
 layout: project
-title: This is a Super Cool Project
+title: CS61Cuda
 nav_exclude: false
 # Keep to ~2 sentences
-description: Ants vs. Some Bees
-class_type: Intro Computer Science
+description: Welcome to CS61Cuda!! This is a mini‑project that introduces you to GPU programming with CUDA by building up to a fast matrix multiply. You’ll start with a CPU reference, write your first CUDA kernels, learn to reason about grids/blocks/threads, and finally add simple vectorization (SIMD) on the GPU. An optional performance sandbox lets you explore optimizations for bragging rights.
+
+class_type: Introduction to Computer Architecture
 authors:
-    - name: Your Name
-      email: contact-email-only-if-you-want
-      url: https://example.com
-    - name: Your Name
-      email: contact-email-only-if-you-want
-      url: https://example.com
+    - name: Malavikha Sudarshan
+      email: malavikhasudarshan@berkeley.edu
+      url: https://www.linkedin.com/in/malavikha-sudarshan/
+    - name: Chloe Shen Yi Wong
+      email: chloe.wong@berkeley.edu
+      url:
 # Suggested Sources (use as necessary)
 presentations:
     - type: slides
-      url:
+      url: https://docs.google.com/presentation/d/1nnp3feWTo1c1cWNK8PmM012uRrIEfwynMh_td877fxk/edit?usp=sharing
 project_source:
     - type: github
-      url:
+      url: https://github.com/malavikhasudarshan/cs61cuda
     - type: website
-      url: https://inst.eecs.berkeley.edu/~cs61a/fa24/projects/proj01/
-    - type: google_drive
-      url:
-    - type: overleaf
-      url:
+      url: https://malavikhasudarshan.github.io/cs61cuda/
 ---
 
 <!-- Leave this here. -->
