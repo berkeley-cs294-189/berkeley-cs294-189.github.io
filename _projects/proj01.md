@@ -13,14 +13,14 @@ authors:
 # Suggested Sources (use as necessary)
 presentations:
     - type: slides
-      url:
+      url: https://docs.google.com/presentation/d/1vobFQEKLYs1jiiQnYO9JhdP57POmnz8edgivLyZaygI/edit?usp=sharing
 project_source:
     - type: github
-      url:
+      url: https://github.com/kanavmittal314/verification-lab-berkeley
     - type: website
-      url: https://inst.eecs.berkeley.edu/~cs61a/fa24/projects/proj01/
+      url: https://kanavmittal314.github.io/verification-lab-berkeley/
     - type: google_drive
-      url:
+      url: 
     - type: overleaf
       url:
 ---
@@ -50,4 +50,16 @@ In this lab assignment, students will write SystemVerilog Assertions (SVA) to ve
 
 [Lab website](https://kanavmittal314.github.io/verification-lab-berkeley/)
 
+## Instructor guides
+
+SVA content references:
+ - SystemVerilog Assertions Basics Website: [https://www.systemverilog.io/verification/sva-basics/](https://www.systemverilog.io/verification/sva-basics/)
+ - SystemVerilog Assertions Apple Guest Lecture (may be guarded behind berkeley.edu login): [https://inst.eecs.berkeley.edu/~eecs151/fa25/static/lectures/lec18.pdf](https://inst.eecs.berkeley.edu/~eecs151/fa25/static/lectures/lec18.pdf)
+
+You can find our [instructor guide](https://docs.google.com/document/d/10dDKbpFEE4OG_W9Gz2uIZHeFTQzw5QupWXlvYeQB7xw/edit?usp=sharing) with grading, solutions, and more advice for running the lab! This guide is private, but you can email us to get access.
+
 ## Requirements
+
+- Enough TAs to conduct check-offs with students
+- Students need to be in pairs
+- [EDA Playground access](https://edaplayground.com/)
