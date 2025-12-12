@@ -3,7 +3,7 @@ layout: project
 title: Embodied AI Lab - EECS 106B
 nav_exclude: false
 # Keep to ~2 sentences
-description: Will AI robots take over the world? Who knows! ¯\(ツ)/¯ Let's drop the dramatic fiction and see what's actually driving these machines 🤖.
+description: Will AI robots take over the world? Who knows! ¯\(ツ)/¯ Let's drop the dramatic fiction and see what's actually driving these machines.
 class_type: Robotic Manipulation and Interaction
 authors:
     - name: Cassie Jeng
@@ -24,7 +24,7 @@ project_source:
     - type: overview
       url: [Lab Materials](https://docs.google.com/document/d/1dMt9y0JQ6oghVBbaNZE0aO2xIc8LnGNKdIRH9gJe_-E/edit?usp=sharing)
     - type: final_checkoff_grading_guidelines
-      url: [Course Staff Grading Guideslines ⚠️Access Required](https://docs.google.com/document/d/1wk4uSNiVx93OYwVAG2cJE-vnNyLYNsqW8A3gais9wAQ/edit?usp=sharing)
+      url: [Course Staff Grading Guideslines Access Required](https://docs.google.com/document/d/1wk4uSNiVx93OYwVAG2cJE-vnNyLYNsqW8A3gais9wAQ/edit?usp=sharing)
 ---
 
 <!-- Leave this here. -->
