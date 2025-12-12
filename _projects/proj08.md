@@ -45,18 +45,46 @@ Logistically, we estimate that this project will slot in during approximately We
 
 ## Learning Goals
 
-- Reason Down The Stack: understand the relationships between layers of abstraction 
+- **Reason Down The Stack**: understand the relationships between layers of abstraction 
 
-- Become Hardware Aware: develop understanding of architecture and its impacts 
+- **Become Hardware Aware**: develop understanding of architecture and its impacts 
 
-- Optimize: use full-stack awareness to design and optimize programs  
+- **Optimize**: use full-stack awareness to design and optimize programs on modern GPU architecture
 
-- Reinforce Parallelism: synthesize the different types of parallelism learned across previous labs/lectures  
+- **Reinforce Parallelism**: synthesize the different types of parallelism learned across previous labs/lectures  
 
-- Matrix Proficiency: build understanding of indexing, bound checks, memory access patterns, and kernel design
+- **Matrix Proficiency**: build understanding of indexing, bound checks, memory access patterns, and kernel design
 
-- Hands-on Programming: get practice designing optimized programs on   modern GPU architectures
+- **Memory vs Compute**: gain intuition of where programs tend to become memory vs compute bound
 
-- Memory vs Compute: gain intuition of where programs tend to become memory vs compute bound
+## Student Assignment
+
+The [Github](https://github.com/malavikhasudarshan/cs61cuda/tree/main) contains the source files, which students can clone from. 
+
+Instructions and the CUDA primer can be viewed on the [assignment website](https://malavikhasudarshan.github.io/cs61cuda/)
+or on the [Github README.md](https://github.com/malavikhasudarshan/cs61cuda/tree/main?tab=readme).
+
+## Instructor Guides
+
+Instructors can contact us via email for the Github repository containing staff solutions and a Gradescope autograder script.
+
+
+Currently, we can provide the following to instructors: 
+- Website: stored in a repository for easy updating + access
+- Resources: code from other courses on parallel programming 
+- Solutions: sample solutions for the guided portions of the class
+- Autograder: includes Gradescope integration (JSON file results) for convenient porting
+- Grading: Quantitative breakdown of grading for the optimized section
 
 ## Requirements
+**Technical requirements**
+- CUDA‑capable GPUs on EECS Hive machines
+- CUDA toolkit (e.g., cuda/12.x module with nvcc)
+- C++17 compiler (via nvcc, g++)
+- Make (make and provided Makefile)
+- Git (clone starter repo, submit via Git/Gradescope)
+
+**Classroom/logistical requirements** 
+- Access to Hive GPU lab machines or remote SSH into Hive
+- In‑person lab/OH time for debugging CUDA
+- Enough TAs/academic interns to support debugging and manually grade free response written questions
