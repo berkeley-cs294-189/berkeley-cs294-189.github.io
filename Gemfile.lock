@@ -250,6 +250,7 @@ GEM
 PLATFORMS
   arm64-darwin-23
   arm64-darwin-24
+  arm64-darwin-25
   x86_64-darwin-23
   x86_64-darwin-24
   x86_64-linux
@@ -278,7 +279,7 @@ DEPENDENCIES
   webrick
 
 RUBY VERSION
-   ruby 3.3.7p94
+  ruby 3.3.7p94
 
 BUNDLED WITH
-   2.6.3
+  4.0.1
