@@ -43,6 +43,7 @@ For Project B0:
 - Plan data processing and representation
 - Explore the available data
 - Develop/justify feature engineering
+
 For Project B1:
 - Incorporate B0 findings to aide analysis
 - Feature engineer with text data
