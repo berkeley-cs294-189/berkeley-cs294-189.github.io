@@ -3,8 +3,8 @@ layout: project
 title: Assertion-Based Verification Lab - EECS151
 nav_exclude: false
 # Keep to ~2 sentences
-description: Introduction to Digital Design and Integrated Circuits
-class_type: Intro Computer Science
+description: Lab that teaches students fundamentals of assertion-based verification. Students write SystemVerilog assertions to verify the functionality of a FIFO buffer.
+class_type: Introduction to Digital Design and Integrated Circuits
 authors:
     - name: Anish Dhanashekar
       email: aeroanish@berkeley.edu
@@ -18,11 +18,7 @@ project_source:
     - type: github
       url: https://github.com/kanavmittal314/verification-lab-berkeley
     - type: website
-      url: https://kanavmittal314.github.io/verification-lab-berkeley/
-    - type: google_drive
-      url: 
-    - type: overleaf
-      url:
+      url: https://kanavmittal314.github.io/verification-lab-berkeley
 ---
 
 <!-- Leave this here. -->
