@@ -36,11 +36,12 @@ The idea of AI robots developing their own brains and taking over the world is a
 
 Moving beyond the basics, we integrate powerful new tools like **Vision-Language Models (VLMs)**, which let the robot understand the world by connecting what it sees with language (e.g., locating an object based on a spoken command). The VLM's output then drives the action through **Vision-Language-Action (VLA) models**. A key focus is on ensuring **safety for the output of VLAs**. Since these systems can generate complex, novel robot actions, we emphasize building robust safety protocols and constraints.
 
-## EECS 106B Course Context
+## Course Context
 EECS 106B Robotic Manipulation and Interaction introduces students to advanced topics and research in robotics and intelligent machines, including kinematics & control, obstacle avoidance & computer vision, manipulation, active vision, and reinforcement learning. It is expected that students have previously taken EECS 106A Introduction to Robotics, have a strong programming background and knowledge of Python and MATLAB, and have some prior experience with coursework in feedback controls.
 
 ## Learning Goals
-This lab aims to add an introduction to embodied AI to the existing research topics covered in EECS 106B. Through the lab, students will:
+This lab aims to add an introduction to embodied AI to the existing research topics covered in EECS 106B. 
+Through the lab, students will:
 1. Develop an **imitation learning** abstracted mental model for a pick-and-place task.
 2. Understand the input and outputs for **VLMs**. Compare different VLM implementations.
 3. Apply VLM intuition to robot use case, introducing **VLAs**.
@@ -53,7 +54,7 @@ This lab is separated into two parts. To begin:
 3. When you've explored all notebooks, complete the [Final Lab Checkoff](https://github.com/abbykoneill/lerobot/blob/main/lab_part2/checkoff.md) with a lab TA and your lab partner.
 
 ## Instructor Guides
-⚠️Access required - The grading guidelines for the lab final checkoff is available [here](https://docs.google.com/document/d/1wk4uSNiVx93OYwVAG2cJE-vnNyLYNsqW8A3gais9wAQ/edit?usp=sharing) for course staff. Please make a copy of the document before implementing any customizations to the guidelines.
+⚠️Access required - The grading guidelines for the lab final checkoff are available [here](https://docs.google.com/document/d/1wk4uSNiVx93OYwVAG2cJE-vnNyLYNsqW8A3gais9wAQ/edit?usp=sharing) for course staff. Please make a copy of the document before implementing any customizations to the guidelines.
 
 ## Requirements
 * Software requirements: Python/Jupyter Notebook
