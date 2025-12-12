@@ -3,7 +3,7 @@ layout: project
 title: CS61Cuda - CS61C
 nav_exclude: false
 # Keep to ~2 sentences
-description: Welcome to CS61Cuda!! This is a mini‑project that introduces you to GPU programming with CUDA by building up to a fast matrix multiply. You’ll start with a CPU reference, write your first CUDA kernels, learn to reason about grids/blocks/threads, and finally add simple vectorization (SIMD) on the GPU. An optional performance sandbox lets you explore optimizations for bragging rights.
+description: Welcome to CS61Cuda!! This is a mini‑project that introduces students to GPU programming with CUDA by building up to a fast matrix multiply. They will start with a CPU reference, write CUDA kernels, learn to reason about grids/blocks/threads, and finally add simple vectorization (SIMD) on the GPU. An optional performance sandbox lets students explore optimizations for bragging rights.
 
 class_type: Intro Computer Architecture
 authors:
@@ -45,17 +45,17 @@ Logistically, we estimate that this project will slot in during approximately We
 
 ## Learning Goals
 
-- **Reason Down The Stack**: understand the relationships between layers of abstraction 
+- Reason down the stack: understand the relationships between layers of abstraction 
 
-- **Become Hardware Aware**: develop understanding of architecture and its impacts 
+- Become hardware-aware: develop understanding of architecture and its impacts 
 
-- **Optimize**: use full-stack awareness to design and optimize programs on modern GPU architecture
+- Optimize: use full-stack awareness to design and optimize programs on modern GPU architecture
 
-- **Reinforce Parallelism**: synthesize the different types of parallelism learned across previous labs/lectures  
+- Reinforce parallelism: synthesize the different types of parallelism learned across previous labs/lectures  
 
-- **Matrix Proficiency**: build understanding of indexing, bound checks, memory access patterns, and kernel design
+- Matrix proficiency: build understanding of indexing, bound checks, memory access patterns, and kernel design
 
-- **Memory vs Compute**: gain intuition of where programs tend to become memory vs compute bound
+- Memory vs compute: gain intuition of where programs tend to become memory vs compute bound
 
 ## Student Assignment
 
@@ -87,4 +87,4 @@ Currently, we can provide the following to instructors:
 **Classroom/logistical requirements** 
 - Access to Hive GPU lab machines or remote SSH into Hive
 - In‑person lab/OH time for debugging CUDA
-- Enough TAs/academic interns to support debugging and manually grade free response written questions
+- Enough TAs/tutors/academic interns to support debugging and manually grade free response written questions
