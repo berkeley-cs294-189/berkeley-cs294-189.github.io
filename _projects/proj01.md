@@ -56,6 +56,6 @@ You can find our [instructor guide](https://docs.google.com/document/d/10dDKbpFE
 
 ## Requirements
 
-- Enough TAs to conduct check-offs with students
 - Students need to be in pairs
-- [EDA Playground access](https://edaplayground.com/)
+- Enough TAs to conduct check-offs with students
+- [Suggested] [EDA Playground access](https://edaplayground.com/) for easier setup of environment to run assertions
