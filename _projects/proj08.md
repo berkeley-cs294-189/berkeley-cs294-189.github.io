@@ -74,7 +74,7 @@ Currently, we can provide the following to instructors:
 - Resources: code from other courses on parallel programming 
 - Solutions: sample solutions for the guided portions of the class
 - Autograder: includes Gradescope integration (JSON file results) for convenient porting
-- Grading: Quantitative breakdown of grading for the optimized section
+- Grading: quantitative breakdown of grading for the optimized section
 
 ## Requirements
 **Technical requirements**
