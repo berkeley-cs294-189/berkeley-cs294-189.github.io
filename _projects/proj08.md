@@ -16,7 +16,7 @@ authors:
 # Suggested Sources (use as necessary)
 presentations:
     - type: slides
-      url: TODO: public version of final presentation slides with no sols
+      url: https://docs.google.com/presentation/d/1i2_tcdh2HcAU4fL4XUy5LmnYnvEv76FIPNrj7iZDMp4/edit?usp=sharing
 project_source:
     - type: github
       url: https://github.com/malavikhasudarshan/cs61cuda
