@@ -19,7 +19,7 @@ project_source:
     - type: website
       url: 
     - type: google_drive
-      url:
+      url: https://drive.google.com/drive/folders/135nsMLeoTTe5H89snUAvc9FjK6oRRU49?usp=sharing
     - type: overleaf
       url:
 ---
@@ -105,7 +105,7 @@ Single node slide diagram -> spreadsheet
 
 
 ## Assignment  
-- [available as pdf](/assets/images/nn_navigator_assignment.pdf)  
+- [available as pdf](https://drive.google.com/file/d/1fc67fwj8otTz46u-7XBx_m4hNvXdL0aA/view?usp=drive_link)  
 __Objective:__  
 Create a visual, hand-written, letter-sized, one-page (double-sided) "Navigator" that guides a fellow student through the logic of manual neural network calculations.  Graph paper is the recommended medium.
 
@@ -129,7 +129,7 @@ The quiz is the test of the "navigation" guide. My current thinking is that the 
 
 The goal is to demonstrate mastery at teaching perceptron and MLP networks if the students do well in writing the study guides grading should be should be easy. Parsing out grades lower than the instructor-set threshold could invite complexity. 
 
-Currently for the purposes of this class, the stress test is completing a blank worksheet. In this case, grading could be simplified by grading only the final output, if the student completes the worksheet with the correct Y1 and Y2 probabilities then the full points for the worksheet are awarded. If the learner does not get the Y1 and Y2 outputs correct, every empty cell value is considered an available point. The total points from the worksheet would be combined their peer-graded rubric score. Three example blank worksheets and keys are available in the [assets folder](../assets/images)
+Currently for the purposes of this class, the stress test is completing a blank worksheet. In this case, grading could be simplified by grading only the final output, if the student completes the worksheet with the correct Y1 and Y2 probabilities then the full points for the worksheet are awarded. If the learner does not get the Y1 and Y2 outputs correct, every empty cell value is considered an available point. The total points from the worksheet would be combined their peer-graded rubric score. Three example blank worksheets and keys are available in the [local assets folder](/assets/images) or [google drive](https://drive.google.com/drive/folders/135nsMLeoTTe5H89snUAvc9FjK6oRRU49?usp=sharing)
 
 If you would like to customize the spreadsheet the link is: [MLP by hand spreadsheet](https://docs.google.com/spreadsheets/d/1CuM1_8cndkqPayXEtGqNS6LI9T2rAEqT0Av0LKjy2qw/edit?gid=1880038000#gid=1880038000)
 
