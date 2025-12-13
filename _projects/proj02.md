@@ -32,17 +32,18 @@ project_source:
 <!-- Start with h2, the page already includes your title. -->
 
 ## Introduction
+Increased complexity of CS topics for upper division classes may offer few opportunities for peer teaching as a way for demonstrating mastery of a topic. This assignment for an upper division class on Introduction to Artificial Intelligence (EECS 188) seeks to provide opportunities for peer teaching and creativity in a mathmatically technical class. The heart of the assignment is for peers to teach each other by making "cheat sheets" for each other for use in a quiz or a test.
+
+The implementation of the assignment centers on introducing a way of teaching neural networks using spreadsheets, which was developed by Tom Yeh, in addition to mathmatical notation.
 
 ## Learning Objectives:
 - deepen math intuition on the process of nodes’ activation weights “learning” in multilayer perceptrons with hands on activity through a spreadsheet presentation, and online visualization
 - Scaffold transition from single node perceptron to neural net with hidden layers, and single to multi-class prediction, and project #5
 - Develop awareness meta-learning strategies
 - communicate technical ideas to others, creating clear and concise documentation
-- Decouple success from solution accuracy and introduce ability to teach others as mastery
+- Decouple success from solution accuracy and provide teaching others as a demonstration of mastery
 - provide opportunity for creative expression in a technical course
 
-
-....
 
 ## Requirements
 
@@ -52,6 +53,18 @@ project_source:
 - optional training (youtube): Walkthrough how to complete the entire MLP worksheet (4min)
 - TA explanation: Doing some translation between the formulas on the CS188 slides and how the values would look in a matrix. - 
 - Distribution of Neural net worksheets on paper or with google sheets
+
+## Grading
+The quiz is the test of the "navigation" guide. My current thinking is that the final grade of the exercise comes in 2 parts: a rubric score of the study guide and the score on the test. If the student following a guide achieves an 90% & above, both students get the 90%+ points. If the student following the guide scores below the 90% threshold, students could recieve a mix of the peer assessment of the navigation guide and the points achieved on the "stress test".
+
+The goal is to demonstrate mastery at teaching perceptron and MLP networks if the students do well in writing the study guides grading should be should be easy. Parsing out grades lower than the instructor-set threshold could invite complexity. 
+
+Currently for the purposes of this class, the stress test is completing a blank worksheet. In this case, grading could be simplified by grading only the final output, if the student completes the worksheet with the correct Y1 and Y2 probabilities then the full points for the worksheet are awarded. If the learner does not get the Y1 and Y2 outputs correct, every empty cell value is considered an available point. The total points from the worksheet would be combined their peer-graded rubric score. 
+
+## Escaping the Learning Objectives
+In addition to failing to compile a study guide, students may escape the learning objective by purposely sabotaging their peers with disingenuous or faulty guides. Those that don't complete a study guide cannot participate in the receive a zero for the study guide assignment and a zero for the "quiz" that tests the study guide.  The instructor or TA will need redistribute study guide pairings for those completing the quiz using the study guide. 
+
+In the case of sabatage, the study guide will be assessed by their peer and the peer grade would include the utility and focus of the study guide. 
 
 
 ## References
