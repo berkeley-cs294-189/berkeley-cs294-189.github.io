@@ -17,7 +17,7 @@ project_source:
     - type: github
       url:
     - type: website
-      url: https://inst.eecs.berkeley.edu/~cs61a/fa24/projects/proj01/
+      url: 
     - type: google_drive
       url:
     - type: overleaf
@@ -46,7 +46,7 @@ The implementation of the assignment centers on introducing a way of teaching ne
 
 
 ## Requirements
-- [AI by Hand worksheets](../assets/images)
+- [AI by Hand worksheets](/assets/images)
 - [Tensorflow playground](https://playground.tensorflow.org)
 - CS 188 slides
 - At least 1 teaching assistant
@@ -105,7 +105,7 @@ Single node slide diagram -> spreadsheet
 
 
 ## Assignment  
-- [available as pdf](../assets/images/nn_navigator_assignment.pdf)  
+- [available as pdf](/assets/images/nn_navigator_assignment.pdf)  
 __Objective:__  
 Create a visual, hand-written, letter-sized, one-page (double-sided) "Navigator" that guides a fellow student through the logic of manual neural network calculations.  Graph paper is the recommended medium.
 
