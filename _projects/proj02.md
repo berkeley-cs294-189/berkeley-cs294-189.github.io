@@ -8,10 +8,7 @@ class_type: Intro to Artificial Intelligence
 authors:
     - name: Melissa Fabros
       email: contact-email-only-if-you-want
-      url: https://example.com
-    - name: Your Name
-      email: contact-email-only-if-you-want
-      url: https://example.com
+      url: https://x.com/me_develops
 # Suggested Sources (use as necessary)
 presentations:
     - type: slides
@@ -35,6 +32,14 @@ project_source:
 <!-- Start with h2, the page already includes your title. -->
 
 ## Introduction
+
+## Learning Objectives:
+- deepen math intuition on the process of nodes’ activation weights “learning” in multilayer perceptrons with hands on activity through a spreadsheet presentation, and online visualization
+- Scaffold transition from single node perceptron to neural net with hidden layers, and single to multi-class prediction, and project #5
+- develop awareness meta-learning strategies, 
+- communicate technical ideas to others, creating clear and concise documentation
+- Decouple success from solution accuracy and introduce ability to teach others as mastery 
+
 
 ....
 
