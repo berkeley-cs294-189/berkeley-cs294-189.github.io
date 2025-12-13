@@ -32,9 +32,9 @@ project_source:
 <!-- Start with h2, the page already includes your title. -->
 
 ## Introduction
-Increased complexity of CS topics for upper division classes may offer few opportunities for peer teaching as a way for demonstrating mastery of a topic. This assignment for an upper division class on Introduction to Artificial Intelligence (EECS 188) seeks to provide opportunities for peer teaching and creativity in a mathmatically technical class. The heart of the assignment is for peers to teach each other by making "cheat sheets" for each other for use in a quiz or a test.
+Increased complexity of CS topics for upper division classes may offer few opportunities for peer teaching as a way for demonstrating mastery of a topic. This assignment for an upper division class on Introduction to Artificial Intelligence (EECS 188) seeks to provide opportunities for peer teaching and creativity in a mathmatically technical class. The heart of the assignment is for peers to teach each other by making "cheat sheets" for each other for use in a quiz or a test. 
 
-The implementation of the assignment centers on introducing a way of teaching neural networks using spreadsheets, which was developed by Tom Yeh, in addition to mathmatical notation.
+The implementation of the assignment centers on introducing a way of teaching neural networks using spreadsheets, which was developed by Tom Yeh, in addition to mathmatical notation. EECS 188 is currently taught in a lecture with weekly discussion format. The assignment was conceived as a discussion or lab activity, but it can also be used in larger classes. 
 
 ## Learning Objectives:
 - deepen math intuition on the process of nodes’ activation weights “learning” in multilayer perceptrons with hands on activity through a spreadsheet presentation, and online visualization
@@ -46,23 +46,76 @@ The implementation of the assignment centers on introducing a way of teaching ne
 
 
 ## Requirements
+- [AI by Hand worksheets](../assets/images)
+- [Tensorflow playground](https://playground.tensorflow.org)
+- CS 188 slides
+- At least 1 teaching assistant
 
-## Assignment scaffolding
+
+## Assignment scaffolding  
+
 - introduction what a node or perceptron is in a deep learning mode and classification problems (Lecture 20 in CS 188)
-- Instructor/TA training (youtube): Walk through of calculating a single node to translate the formula expression to a spreadsheet presentation (2min)
-- optional training (youtube): Walkthrough how to complete the entire MLP worksheet (4min)
+- Instructor/TA training (youtube): [Walk through of calculating a single node to translate the formula expression to a spreadsheet presentation](https://www.youtube.com/watch?v=jwyNzw0aclA) (2min)
+- optional training (youtube): [Walkthrough how to complete the entire MLP worksheet](https://www.youtube.com/watch?v=NMOn7fJN1QI) (4min)
 - TA explanation: Doing some translation between the formulas on the CS188 slides and how the values would look in a matrix. - 
 - Distribution of Neural net worksheets on paper or with google sheets.
 
+## Implemention for EECS 188 context (estimated time to execute 3 - 4hrs):  
+* Setup before discussion section:
+1: TA prep before class would require reviewing this video of a single node example calculation (2min)
+2: TA demonstrates and trains a neural network online using tensorflow playground https://playground.tensorflow.org (2 min setup)
+3: Settings can be variable but initially could follow the worksheet architecture and settings
+    * Activation: ReLU
+    * Problem type: classification
+    * 4 hidden layers: 4 nodes, 3 nodes, 4 nodes, 3 nodes
+    * Initial Hyperparameters: 
+        * Spiral dataset
+        * Batch size: 10
+        * Noise: 25%
+        * Training-test set ration: 60%
+        * Learning rate: .03
+        * Regularization: none
+        * Regularization rate: none
+
+
+* During Discussion:
+1. TA sets up and frames discussion / lab about perceptrons and MLP from lecture (2-5min)
+2. TA demonstrates and trains a neural network online using tensorflow playground https://playground.tensorflow.org (10-15min)
+3. The online visualization can be used as early as the training and testing slides in lecture 19
+4. TA walks through a single node perceptron example using the spreadsheet representation during discussion (10-15min):
+Single node slide diagram -> spreadsheet
+5. Students are presented with a completed spreadsheet (or with a faded parsons version). Students working in pairs start to draft a “cheatsheet” or step by step explanations on how the activation weights are “learning” or being calculated step by step on the spreadsheet with the instructions that it will be a teaching guide to solve the neural net (20-30 min) problems for others. Can use an online version or paper version of the worksheet.
+
+* Homework: 
+1. finish or refine their own copy of the cheatsheet or explainer to the spreadsheet presentation of the MLP to bring to lecture or next discussion (60-120 min). 
+2. Review slides 20-38 for lecture 20
+3. Include explanations of nodes, weights, bias, relu, sigmoid in plain english as it pertains to the spreadsheet
+4. Provide instructions to how calculate the probabilistic output for inputs x1 and x2 with  weights initialized to 0 for an initial training pass
+5. Provide instructions on how to use the spreadsheet to update weight values for case of  misclassification 1 or misclassification 2 from the lecture slides
+6. Any “Warning” notes about possible missteps or notes on how to double check their work or tip and tricks
+
+* Formative assessment: A quiz during lecture would be to trade their explainer notes to another student calculate the activation weights of an MLP with hidden layers (45 min)
+    * Failure to bring the cheatsheet fails the assignment 0 - points. 
+    * The pairs can be identified and matched in an earlier lecture. Or students just pass their notes to the person next to them or entire rows shift left their notes. 
+    * A blank copy of the MLP architecture spreadsheet would be distributed in lecture or a discussion section.
+    * The spreadsheet values are changeable with formulas that automate the answer key, different versions of the MLP can be distributed
+        * The spreadsheet could be empty or be a faded parsons exercise where some of the values are already completed 
+    * Using the new-to-them explainer notes, Students will complete fill in the blank values for the MLP architecture, answer some short answer questions about what ReLu does and assess the helpfulness of the explainer notes.
+    * Students reflect on their cheatsheet with respect to the one they received after the rubric scoring. 
+
+
 ## Assignment  
 - [available as pdf](../assets/images/nn_navigator_assignment.pdf)  
-__Objective:__ Create a visual, hand-written, letter-sized, one-page (double-sided) "Navigator" that guides a fellow student through the logic of manual neural network calculations.  Graph paper is the recommended medium.
+__Objective:__  
+Create a visual, hand-written, letter-sized, one-page (double-sided) "Navigator" that guides a fellow student through the logic of manual neural network calculations.  Graph paper is the recommended medium.
 
 Your guide should cover the vocabulary and step through the execution of simple Logic Gate (Single Perceptron) as well the workings of complex Classifier (Multi-Layer Perceptron) from input through output.
 
 In the following class, a peer student will only have your guide as a “cheat sheet” to answer questions about or demonstrate the calculations of weights, bias, relu or sigmoid functions in a neural net. You should cover how the formal math notations can be translated into concrete math manipulations (The Tom Yeh’s “by hand” methods would be a good model). 
 
 Flag possible “gotchas” or tricky parts that they might have a hard time with because you had a hard time with the concept or task.
+
+
 
 __Grading:__ 
 If the person using your guide gets an “A” on the stress test, you will also receive an “A” as their navigator. If the person using your guide doesn't get an “A”, you will receive a combination of your own points on the test and a peer assessed grade of your guide. 
@@ -76,7 +129,9 @@ The quiz is the test of the "navigation" guide. My current thinking is that the 
 
 The goal is to demonstrate mastery at teaching perceptron and MLP networks if the students do well in writing the study guides grading should be should be easy. Parsing out grades lower than the instructor-set threshold could invite complexity. 
 
-Currently for the purposes of this class, the stress test is completing a blank worksheet. In this case, grading could be simplified by grading only the final output, if the student completes the worksheet with the correct Y1 and Y2 probabilities then the full points for the worksheet are awarded. If the learner does not get the Y1 and Y2 outputs correct, every empty cell value is considered an available point. The total points from the worksheet would be combined their peer-graded rubric score. 
+Currently for the purposes of this class, the stress test is completing a blank worksheet. In this case, grading could be simplified by grading only the final output, if the student completes the worksheet with the correct Y1 and Y2 probabilities then the full points for the worksheet are awarded. If the learner does not get the Y1 and Y2 outputs correct, every empty cell value is considered an available point. The total points from the worksheet would be combined their peer-graded rubric score. Three example blank worksheets and keys are available in the [assets folder](../assets/images)
+
+If you would like to customize the spreadsheet the link is: [MLP by hand spreadsheet](https://docs.google.com/spreadsheets/d/1CuM1_8cndkqPayXEtGqNS6LI9T2rAEqT0Av0LKjy2qw/edit?gid=1880038000#gid=1880038000)
 
 A sample rubric is available with the peer instruction assignment instructions. 
 
