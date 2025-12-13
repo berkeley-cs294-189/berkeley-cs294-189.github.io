@@ -37,16 +37,16 @@ Increased complexity of CS topics for upper division classes may offer few oppor
 The implementation of the assignment centers on introducing a way of teaching neural networks using spreadsheets, which was developed by Tom Yeh, in addition to mathmatical notation. EECS 188 is currently taught in a lecture with weekly discussion format. The assignment was conceived as a discussion or lab activity, but it can also be used in larger classes. 
 
 ## Learning Objectives:
-- deepen math intuition on the process of nodes’ activation weights “learning” in multilayer perceptrons with hands on activity through a spreadsheet presentation, and online visualization
-- Scaffold transition from single node perceptron to neural net with hidden layers, and single to multi-class prediction, and project #5 (creating and training an classifier on the MNIST dataset)
-- Develop awareness meta-learning strategies
-- communicate technical ideas to others, creating clear and concise documentation
+- Deepen math intuition on the process of nodes’ activation weights “learning” in multilayer perceptrons with hands on activity through a spreadsheet presentation, and online visualization
+- Scaffold transition from single node perceptron to neural net with hidden layers, and single to multi-class prediction, and project #5 (creating and training a classifier on the MNIST dataset)
+- Develop awareness of meta-learning strategies
+- Communicate technical ideas to others, creating clear and concise documentation
 - Decouple success from solution accuracy and provide teaching others as a demonstration of mastery
-- provide opportunity for creative expression in a technical course
+- Provide an opportunity for creative expression in a technical course
 
 
 ## Requirements
-- [AI by Hand worksheets](/assets/images)
+- [AI by Hand worksheets](https://drive.google.com/drive/folders/135nsMLeoTTe5H89snUAvc9FjK6oRRU49?usp=sharing)
 - [Tensorflow playground](https://playground.tensorflow.org)
 - CS 188 slides
 - At least 1 teaching assistant
