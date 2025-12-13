@@ -129,14 +129,14 @@ The quiz is the test of the "navigation" guide. My current thinking is that the 
 
 The goal is to demonstrate mastery at teaching perceptron and MLP networks if the students do well in writing the study guides grading should be should be easy. Parsing out grades lower than the instructor-set threshold could invite complexity. 
 
-Currently for the purposes of this class, the stress test is completing a blank worksheet. In this case, grading could be simplified by grading only the final output, if the student completes the worksheet with the correct Y1 and Y2 probabilities then the full points for the worksheet are awarded. If the learner does not get the Y1 and Y2 outputs correct, every empty cell value is considered an available point. The total points from the worksheet would be combined their peer-graded rubric score. Three example blank worksheets and keys are available in the [local assets folder](/assets/images) or [google drive](https://drive.google.com/drive/folders/135nsMLeoTTe5H89snUAvc9FjK6oRRU49?usp=sharing)
+Currently for the purposes of this class, the stress test is completing a blank worksheet. A more complex or comprehensive "stress" test can be implemented as well. In this case of completing a blank spreadsheet, grading could be simplified by grading only the final output, if the student completes the worksheet with the correct Y1 and Y2 probabilities then the full points for the worksheet and the study guide are awarded. If the learner does not get the Y1 and Y2 outputs correct, every empty cell value is considered an available point. The total points from the worksheet would be combined their peer-graded rubric score. Three example blank worksheets and keys are available in [google drive](https://drive.google.com/drive/folders/135nsMLeoTTe5H89snUAvc9FjK6oRRU49?usp=sharing)
 
 If you would like to customize the spreadsheet the link is: [MLP by hand spreadsheet](https://docs.google.com/spreadsheets/d/1CuM1_8cndkqPayXEtGqNS6LI9T2rAEqT0Av0LKjy2qw/edit?gid=1880038000#gid=1880038000)
 
-A sample rubric is available with the peer instruction assignment instructions. 
+A sample rubric for the cheat sheet is available with the assignment instructions. 
 
 ## Escaping the Learning Objectives
-In addition to failing to compile a study guide, students may escape the learning objective by purposely sabotaging their peers with disingenuous or faulty guides. Those that don't complete a study guide cannot participate in the receive a zero for the study guide assignment and a zero for the "quiz" that tests the study guide.  The instructor or TA will need redistribute study guide pairings for those completing the quiz using the study guide. 
+In addition to failing to compile a study guide, students may escape the learning objective by purposely sabotaging their peers with disingenuous or faulty guides. Those that don't complete a study guide cannot participate in the quiz or worksheet activity and will receive a zero for the study guide assignment and a zero for the "quiz" that tests the study guide.  The instructor or TA will need redistribute study guide pairings for those completing the quiz using the study guide. 
 
 In the case of sabatage, the study guide will be assessed by their peer and the peer grade would include the utility and focus of the study guide. 
 
