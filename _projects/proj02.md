@@ -54,6 +54,23 @@ The implementation of the assignment centers on introducing a way of teaching ne
 - TA explanation: Doing some translation between the formulas on the CS188 slides and how the values would look in a matrix. - 
 - Distribution of Neural net worksheets on paper or with google sheets.
 
+## Assignment  
+- [available as pdf](../assets/images/nn_navigator_assignment.pdf)  
+__Objective:__ Create a visual, hand-written, letter-sized, one-page (double-sided) "Navigator" that guides a fellow student through the logic of manual neural network calculations.  Graph paper is the recommended medium.
+
+Your guide should cover the vocabulary and step through the execution of simple Logic Gate (Single Perceptron) as well the workings of complex Classifier (Multi-Layer Perceptron) from input through output.
+
+In the following class, a peer student will only have your guide as a “cheat sheet” to answer questions about or demonstrate the calculations of weights, bias, relu or sigmoid functions in a neural net. You should cover how the formal math notations can be translated into concrete math manipulations (The Tom Yeh’s “by hand” methods would be a good model). 
+
+Flag possible “gotchas” or tricky parts that they might have a hard time with because you had a hard time with the concept or task.
+
+__Grading:__ 
+If the person using your guide gets an “A” on the stress test, you will also receive an “A” as their navigator. If the person using your guide doesn't get an “A”, you will receive a combination of your own points on the test and a peer assessed grade of your guide. 
+
+The criteria that the navigation guide would be graded on include: Visual Clarity & Design, Communication, Conceptual Clarity, Comprehensiveness, Scaffolding of concepts, Meta-learning awareness
+
+
+
 ## Grading
 The quiz is the test of the "navigation" guide. My current thinking is that the final grade of the exercise comes in 2 parts: a rubric score of the study guide and the score on the test. If the student following a guide achieves an 90% & above, both students get the 90%+ points. If the student following the guide scores below the 90% threshold, students could recieve a mix of the peer assessment of the navigation guide and the points achieved on the "stress test".
 
